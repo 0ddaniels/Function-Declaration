@@ -32,7 +32,7 @@ function plusplus(n) {
 // (3) Third Task
 // Declare a function named oppRecip() which outputs the opposite reciprocal of the input number.
 function oppRecip(n) {
-    return (1/n);
+    return -(1/n);
 }
 
 
@@ -43,8 +43,8 @@ function oppRecip(n) {
 // (4) Fourth Task
 // Declare a function named pthagorean() which has two inputs you guessed it a and b.
 // The function outputs the value of the third side of the right triangle.
-function pthagorean(a,b) {
-    let c = a*a + b*b;
+function pythagorean(a,b) {
+    let c = (a*a) + (b*b);
     return Math.sqrt(c);
 }
 
@@ -122,8 +122,8 @@ function beefDay() {
 // (10) Tenth Task
 // Declare a function named xor() which has two inputs a and b.
 // This function returns the exclusive or of the two boolean inputs.
-function xor(a, b) {
-    return ()
+function xor(a,b) {
+    return (!a && b) || (a && !b);
 }
 
 
